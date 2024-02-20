@@ -30,7 +30,7 @@ Instructions for setting up the environment, installing dependencies, and runnin
 
 ## Results
 
-The model achieved a final test accuracy of approximately 68%. Training and validation accuracy and losses are documented through graphs on Wandb, showcasing the learning progress and model convergence.
+The model achieved a final test accuracy of approximately 68%. Training and validation accuracy and losses are documented through graphs on Wandb, showcasing the learning progress and model convergence. The project [paper](https://github.com/lukmanaj/wildlifeclassify/project_paper.pdf) also explains the results in greater detail.
 
 ## Deployment
 
