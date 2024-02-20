@@ -1,4 +1,4 @@
-# DigitDecoder
+# African Wild Classification Project
 
 ArewaDS Capstone Project Repo
 
