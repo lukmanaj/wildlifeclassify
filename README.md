@@ -1,5 +1,49 @@
 # African Wild Classification Project
 
-ArewaDS Capstone Project Repo
+This repository contains the code and resources for the Arewa Data Science Capstone Project by Group 2, focusing on the classification of African wildlife images using the DenseNet architecture. This deep learning project is developed with PyTorch and aims to contribute to wildlife conservation efforts by automating the identification process of various animal species.
 
-This repository contains code for the Arewa Data Science Deep Learning with PyTorch capstone project for Group 2. Work in progress. 
+## Project Overview
+
+This project employs the DenseNet convolutional neural network to classify images from the African Wildlife dataset, which includes species such as buffalo, elephant, rhino, and zebra. The goal is to support biodiversity monitoring and conservation through advanced computer vision techniques.
+
+## **Team Members**
+
+- Lukman Jibril Aliyu
+- Umar Sani Muhammad
+- Bilkisu Isma’il
+- Nasiru Mohammed
+
+## Dataset
+
+The [African Wildlife dataset](https://www.kaggle.com/datasets/biancaferreira/african-wildlife) used in this study consists of balanced classes of buffalo, elephant, rhino, and zebra. The dataset is split into training and testing subsets using an 80-20 ratio. Each image is resized to 64x64 pixels and normalized to enhance the model's training and generalization capabilities.
+
+## Methodology
+
+The project utilizes the DenseNet201 architecture initialized with pre-trained ImageNet weights. The feature-extraction layers are frozen to save computational resources, focusing the training on the classification layers. We use the Adam optimizer with a learning rate of 0.001 and a CrossEntropy loss function for multi-class classification.
+
+## Installation and Usage
+
+Instructions for setting up the environment, installing dependencies, and running the notebooks are provided in the respective folders:
+
+/notebooks: Jupyter notebooks used for model training on Kaggle.
+/modular_code: Modular code scripts for preprocessing, training, and evaluation.
+
+## Results
+
+The model achieved a final test accuracy of approximately 68%. Training and validation accuracy and losses are documented through graphs on Wandb, showcasing the learning progress and model convergence.
+
+## Deployment
+
+The model is deployed on a Streamlit application for real-world testing and user interaction. Users can upload images to the platform and receive immediate classification results. Access the application [here](https://wildlifeclassify.streamlit.app/).
+
+## Future Work
+
+Future directions include expanding the dataset with more diverse animal species, integrating location data, and improving model generalization through advanced data augmentation and training techniques.
+
+## Contributions
+
+We welcome contributions from the community to extend the dataset, enhance the model's performance, or improve the application's functionality.
+
+## Acknowledgments
+
+We extend our gratitude to the Arewa Data Science Academy, most especially our able mentor [Mr Mustapha Abdullahi](https://github.com/mustious) and Dr Shamsuddeen H Muhammad. Special also thanks to our mentors and peers for their guidance and feedback.
