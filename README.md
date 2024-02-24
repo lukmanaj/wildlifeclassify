@@ -34,7 +34,7 @@ The model achieved a final test accuracy of approximately 68%. Training and vali
 
 ## Deployment
 
-The model is deployed on a Streamlit application for real-world testing and user interaction. Users can upload images to the platform and receive immediate classification results. Access the application [here](https://wildlifeclassify.streamlit.app/).
+The model is deployed on a Streamlit application for real-world testing and user interaction. Users can upload images to the platform and receive immediate classification results. Access the application [here](https://wildlifeclassify.streamlit.app/). [Here](https://youtu.be/Mp5iStr_wzs?si=0CMjfRQRHo72BVKy) is a video demo.
 
 ## Future Work
 
