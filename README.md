@@ -21,19 +21,13 @@ The [African Wildlife dataset](https://www.kaggle.com/datasets/biancaferreira/af
 
 The project utilizes the DenseNet201 architecture initialized with pre-trained ImageNet weights. The feature-extraction layers are frozen to save computational resources, focusing the training on the classification layers. We use the Adam optimizer with a learning rate of 0.001 and a CrossEntropy loss function for multi-class classification.
 
-## Installation and Usage
-
-Instructions for setting up the environment, installing dependencies, and running the notebooks are provided in the respective folders:
-
-/notebooks: Jupyter notebooks used for model training on Kaggle.
-
 ## Results
 
 The model achieved a final test accuracy of approximately 68%. Training and validation accuracy and losses are documented through graphs on Wandb, showcasing the learning progress and model convergence. The project [paper](https://github.com/lukmanaj/wildlifeclassify/blob/main/project_paper.pdf) further explains the results.
 
 ## Deployment
 
-The model is deployed on a Streamlit application for real-world testing and user interaction. Users can upload images to the platform and receive immediate classification results. Access the application [here](https://afriwildlifeclassify.streamlit.app/). A video demo can be found [here](https://youtu.be/Mp5iStr_wzs?si=0CMjfRQRHo72BVKy).
+The model is deployed on a Streamlit application for real-world testing and user interaction. Users can upload images to the platform and receive immediate classification results. Access the application [here](https://afriwildlifeclassify.streamlit.app/). A video demo can be found [here](https://youtu.be/Mp5iStr_wzs?si=0CMjfRQRHo72BVKy). For the streamlit implementation, check [here](https://github.com/lukmanaj/wildlifeclassifyapp)
 
 ## Future Work
 
