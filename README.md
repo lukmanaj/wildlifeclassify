@@ -26,7 +26,6 @@ The project utilizes the DenseNet201 architecture initialized with pre-trained I
 Instructions for setting up the environment, installing dependencies, and running the notebooks are provided in the respective folders:
 
 /notebooks: Jupyter notebooks used for model training on Kaggle.
-/modular_code: Modular code scripts for preprocessing, training, and evaluation.
 
 ## Results
 
