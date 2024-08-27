@@ -39,4 +39,4 @@ We welcome contributions from the community to extend the dataset, enhance the m
 
 ## Acknowledgments
 
-We extend our gratitude to the Arewa Data Science Academy, most especially our able mentor [Mr Mustapha Abdullahi](https://github.com/mustious) and Dr Shamsuddeen H Muhammad. Special thanks to our mentors and peers for their valuable guidance and feedback.
+We extend our gratitude to the Arewa Data Science Academy, most especially our able mentor [Mr Mustapha Abdullahi](https://www.mustaphaabdullahi.com/) and [Dr Shamsuddeen H Muhammad](https://shmuhammadd.github.io/). Special thanks to our mentors and peers for their valuable guidance and feedback.
