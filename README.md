@@ -1,6 +1,6 @@
 # African Wild Classification Project
 
-This repository contains the code and resources for the Arewa Data Science Capstone Project by Group 2, focusing on the classification of African wildlife images using the Densely Connected Convolutional Networks (DenseNet) architecture. This deep learning project is developed with PyTorch and aims to contribute to wildlife conservation efforts by automating the identification process of various animal species.
+This repository contains the code for the Arewa Data Science Capstone Project by Group 2, focusing on the classification of African wildlife images using the Densely Connected Convolutional Networks (DenseNet) architecture. This deep learning project is developed with PyTorch and aims to contribute to wildlife conservation efforts by automating the identification process of various animal species.
 
 ## Project Overview
 
